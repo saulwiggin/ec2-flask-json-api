@@ -6,3 +6,4 @@ virtualenv environment
 source environment/bin/activate
 pip install -r requirements.txt
 pip install supervisor
+pip install flask-cors
