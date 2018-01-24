@@ -2,7 +2,6 @@
 from flask import Flask
 from flaskrun import flaskrun
 from flask_cors import CORS
-from seqseek import Chromosome
 
 application = Flask(__name__)
 CORS(application)
