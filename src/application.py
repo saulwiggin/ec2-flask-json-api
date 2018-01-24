@@ -7,10 +7,10 @@ from seqseek import Chromosome
 application = Flask(__name__)
 CORS(application)
 
-@application.route('/json', methods=['GET'])
-def get():
-    ref_chromo = Chromosome(1).sequence(21786068,21786118)
-    return '{"Vitamin B6":"'+ref_chromo+'"}'
+# @application.route('/json', methods=['GET'])
+# def get():
+#     ref_chromo = Chromosome(1).sequence(21786068,21786118)
+#     return '{"Vitamin B6":"'+ref_chromo+'"}'
 
 @application.route('/', methods=['GET'])
 def get():
