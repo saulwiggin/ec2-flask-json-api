@@ -9,7 +9,6 @@ CORS(application)
 
 @application.route('/json', methods=['GET'])
 def get():
-    print('Vitamin B6: rs4654748')
     ref_chromo = Chromosome(1).sequence(21786068,21786118)
     return '{"Vitamin B6":"'+ref_chromo+'"}'
 
